@@ -1,4 +1,6 @@
-PYTHON INTERVIEW QUESTIONS:
+PYTHON INTERVIEW QUESTIONS: 
+
+
 1. Explain Python's Global Interpreter Lock (GIL). How does it affect multithreading?
 #The GIL is a mutex that protects access to Python objects, preventing multiple native threads from executing Python
 bytecodes at once. It can limit the performance of CPU-bound programs in multi-core systems because only one thread can execute Python
@@ -16,7 +18,9 @@ using a class-level variable, or employing a decorator or metaclass to ensure on
 5. What are Python generators? How do they differ from regular functions?
 #Generators are functions that yield values one at a time, allowing iteration over potentially large datasets without storing
 the entire dataset in memory. They differ from regular functions by using yield instead of return, and they return an iterator.
+
 SQL INTERVIEW QUESTIONS:
+
 1. What is the difference between INNER JOIN and OUTER JOIN in SQL?
 #INNER JOIN returns only the rows that have matching values in both tables. OUTER JOIN returns all the rows from one table
 and the matching rows from the other table (can be LEFT, RIGHT, or FULL OUTER JOIN).
